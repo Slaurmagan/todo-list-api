@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :todos
+  post 'user_token' => 'user_token#create'
+  resources :users
+  scope '/auth' do 
+    post 'login',to: 'user_token#create'
+    post 'signup',to: 'users#create'
+  end
 end

@@ -2,7 +2,8 @@
 
 * Ruby 2.5.6
 * Rails 6.0.3.3
-
+## Frontend part
+[Frontend](https://github.com/Slaurmagan/todo-list-front)
 # Installation
 
 ## 1. Clone backend
@@ -27,7 +28,7 @@ bundle install
 mkdir frontend | cd frontend
 ```
 
-## 5. Copy frontend part to folder
+## 5. Clone frontend part to folder
 
 ```
 git clone git@github.com:Slaurmagan/todo-list-front.git

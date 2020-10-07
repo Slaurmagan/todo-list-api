@@ -1,24 +1,49 @@
-# README
+## Ruby and Rails versions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby 2.5.6
+* Rails 6.0.3.3
 
-Things you may want to cover:
+# Installation
 
-* Ruby version
+## 1. Clone backend
+```
+git clone git@github.com:Slaurmagan/todo-list-api.git
+```
 
-* System dependencies
+## 2. CD to folder
+```
+cd todo-list-api
+```
 
-* Configuration
+## 3. Run bundle install
 
-* Database creation
+```
+bundle install
+```
 
-* Database initialization
+## 4. Create frontend folder
 
-* How to run the test suite
+```
+mkdir frontend | cd frontend
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## 5. Copy frontend part to folder
 
-* Deployment instructions
+```
+git clone git@github.com:Slaurmagan/todo-list-front.git
+```
 
-* ...
+## 6. Run npm install
+
+``` 
+npm install 
+```
+
+## 7. Run foreman
+
+```
+cd .. | foreman start
+```
+
+# Congrats
+Visit your [site](http://localhost:5100).
